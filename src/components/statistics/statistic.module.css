@@ -1,0 +1,25 @@
+.statistic {
+  border-radius: 10px;
+  border: 1px solid #808080;
+  box-shadow: 0 35px 60px 3px rgb(0 0 0 / 30%);
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+}
+.statistic__title {
+  padding: 10px;
+}
+.statistic__list {
+  display: flex;
+}
+.statistic__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
